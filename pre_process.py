@@ -1,4 +1,4 @@
-import pandas as pd, torch
+import pandas as pd, torch, re
 from tqdm.notebook import tqdm
 from torch.nn.utils.rnn import pad_sequence
 from PIL import Image
